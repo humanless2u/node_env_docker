@@ -5,7 +5,6 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'echo hello from jenkinsfile'
                 sh 'node --version'
             }
         }
